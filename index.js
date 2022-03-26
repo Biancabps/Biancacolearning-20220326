@@ -50,3 +50,8 @@ if(filme.indicadoParaMaiores) {
 } else {
     console.log(`[IF 08 ELSE] O filme ${filme.titulo} é indicado para todas as idades`)
 }
+
+// Condicional com IF/ELSE usando IF TERNÁRIO (onde ? representa o if e o : o else)
+filme.indicadoParaMaiores
+    ? console.log(`[IF 09 IF] O filme ${filme.titulo} NÃO é indicado para todas as idades`)
+    : console.log(`[IF 09 ELSE] O filme ${filme.titulo} é indicado para todas as idades`)
