@@ -43,3 +43,10 @@ if(filme.indicadoParaMaiores || filme.avaliacao > 5) {
 if(!filme.indicadoParaMaiores && (filme.avaliacao > 5 || filme.ano === 1990)) {
     console.log(`[If 07] O filme ${filme.titulo} é indicado para todas as idades e está acima da média.`)
 }
+
+// Condicional com IF/ELSE
+if(filme.indicadoParaMaiores) {
+    console.log(`[IF 08 IF] O filme ${filme.titulo} NÃO é indicado para todas as idades`)
+} else {
+    console.log(`[IF 08 ELSE] O filme ${filme.titulo} é indicado para todas as idades`)
+}
