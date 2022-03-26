@@ -62,8 +62,8 @@ console.log(filme.indicadoParaMaiores ? `[IF 10 IF] O filme ${filme.titulo} NÃO
 // Condicional com IF/ELSE IF/ELSE
 if(filme.indicadoParaMaiores) {
     console.log(`[if 11 IF] O filme ${filme.titulo} NÃO é indicado para todas as idades`)
-  } else if (filme.titulo === "Titanic") {
+} else if (filme.titulo === "Titanic") {
     console.log(`[if 11 ELSE IF] O nome do filme é Titanic`)
-  } else {
+} else {
     console.log(`[if 11 ELSE] O filme ${filme.titulo} é indicado para todas as idades e seu título não é Titanic`)
-  }
+}
